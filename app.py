@@ -138,7 +138,7 @@ async def generate_bpmn(prompt:Prompt):
             "content": "generate the piperflow text for the below scenario\n\n" + prompt.prompt
         }
     ],
-    temperature=0.2,
+    temperature=0,
     top_p=1,
     stream=False,
     stop=None,

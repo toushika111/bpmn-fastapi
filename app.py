@@ -151,6 +151,3 @@ async def generate_bpmn(prompt:Prompt):
     print(piperFlowText)
 
     return {"pipeFlowImage":generate_diagram(piperFlowText),"pipeFlowText":piperFlowText}
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)

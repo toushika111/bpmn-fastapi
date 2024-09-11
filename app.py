@@ -139,7 +139,6 @@ async def generate_bpmn(prompt:Prompt):
         }
     ],
     temperature=0.2,
-    max_tokens=1024,
     top_p=1,
     stream=False,
     stop=None,
